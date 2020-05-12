@@ -4,8 +4,8 @@ public class Wilder {
 	/*
 	 *  attributes
 	 */
-	String firstName ="";
-	boolean aware = false;
+	private String firstName ="";
+	private boolean aware = false;
 	
 	/*
 	 * constructors
