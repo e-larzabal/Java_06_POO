@@ -18,19 +18,18 @@ public class Wilder {
 	/*
 	 * getters
 	 */
-	
 	public String getFirstName() {
 		return this.firstName;
 	}
 	
-	public boolean getAware() {
+	public boolean isAware() {
 		return this.aware;
 	}
 	
 	/*
 	 * setters
+	 *
 	 */
-	
 	public void setFirstName(String firstName) {
 		this.firstName = firstName;
 	}
@@ -46,7 +45,7 @@ public class Wilder {
     public String whoAmI() {
     	String maPresentation = "Je m'appelle " + this.getFirstName() +" et ";
     	
-    	if (getAware()) {
+    	if (isAware()) {
     		maPresentation += "je suis aware";
     	} else {
     		maPresentation += "je ne suis pas aware";
